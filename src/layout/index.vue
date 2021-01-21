@@ -1,17 +1,15 @@
 <template>
   <div class="main">
-    <navbar />
     <app-main />
   </div>
 </template>
 
 <script>
-import { Navbar, AppMain } from "./components";
+import { AppMain } from "./components";
 
 export default {
   name: "Layout",
   components: {
-    Navbar,
     AppMain
   },
   mixins: [],
